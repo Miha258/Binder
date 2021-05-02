@@ -3,6 +3,7 @@ import keyboard
 from binds import Binds
 import pyautogui
 from save_binds import SaveFiles
+import os
 
 class Interface:
     pyautogui.FAILSAFE = False
